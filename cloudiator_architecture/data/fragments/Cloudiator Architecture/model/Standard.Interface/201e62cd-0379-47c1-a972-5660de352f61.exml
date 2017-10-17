@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DiscoveryStore" version="4">
+  <OBJECT>
+    <ID name="DiscoveryStore" mc="Standard.Interface" uid="201e62cd-0379-47c1-a972-5660de352f61"/>
+    <PID name="Cloudiator" mc="Standard.Package" uid="19a92d3a-41ba-446b-99d9-a51b34624145"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DiscoveryStore]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

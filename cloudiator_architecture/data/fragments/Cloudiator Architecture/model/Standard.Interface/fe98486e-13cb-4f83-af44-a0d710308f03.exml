@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SparkInterface" version="4">
+  <OBJECT>
+    <ID name="SparkInterface" mc="Standard.Interface" uid="fe98486e-13cb-4f83-af44-a0d710308f03"/>
+    <PID name="Cloudiator" mc="Standard.Package" uid="19a92d3a-41ba-446b-99d9-a51b34624145"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SparkInterface]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Discovery" version="4">
+  <OBJECT>
+    <ID name="Discovery" mc="Standard.Package" uid="bd489d12-a29a-4f1e-bba1-b4dd35a2f45a"/>
+    <PID name="cloudiator" mc="Standard.Package" uid="0f5b7d79-ca1e-4419-a0d5-bf5e62dc1fa8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Discovery]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Image" mc="Standard.Class" uid="0dcaf770-c69b-4077-8abc-c32d195dad3e"/>
+        <COMPID name="Location" mc="Standard.Class" uid="fbb57e7b-fa2d-4049-aaf5-5f093fa12ec4"/>
+        <COMPID name="Hardware" mc="Standard.Class" uid="15f5ca33-7f50-466d-bf73-f4b5bf6da321"/>
+        <OBJECT>
+          <ID name="LocationScope" mc="Standard.Enumeration" uid="bd99ac1f-4d07-4bee-9941-e909870383a8"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[LocationScope]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="Region" mc="Standard.EnumerationLiteral" uid="8eb02376-20b4-41aa-9bfa-0aa5d28782be"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Region]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Zone" mc="Standard.EnumerationLiteral" uid="50f40b4e-7ba9-441a-89b2-4f0cdee6ab96"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Zone]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Host" mc="Standard.EnumerationLiteral" uid="7fe452f5-5762-4e2f-9574-bbf46358baea"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Host]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Price" mc="Standard.Class" uid="3ea7bbfc-1fad-4d96-9396-2fd49b154f45"/>
+        <COMPID name="OperatingSystem" mc="Standard.Class" uid="9ff349c6-68eb-483a-88e8-c5865661c45e"/>
+        <COMPID name="Cloud" mc="Standard.Class" uid="cdd1ddd0-339a-4839-bfda-503379038be1"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="fae7d9b2-b278-4286-b808-5b2356a7f635"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

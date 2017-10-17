@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UpperWare" version="4">
+  <OBJECT>
+    <ID name="UpperWare" mc="Standard.Package" uid="95ab6af1-af8f-49b4-86c4-bd75ddb5e49d"/>
+    <PID name="UML Model" mc="Standard.Package" uid="c2f64ab9-8c9e-4776-997f-9f3dcea03e43"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UpperWare]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Adapter" mc="Standard.Component" uid="5dc51f5b-0d49-4ee3-b7fb-8f95066fdacb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

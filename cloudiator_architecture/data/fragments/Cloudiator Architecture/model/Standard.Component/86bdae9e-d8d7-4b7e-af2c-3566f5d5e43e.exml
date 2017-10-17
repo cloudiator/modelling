@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UserInterface" version="4">
+  <OBJECT>
+    <ID name="UserInterface" mc="Standard.Component" uid="86bdae9e-d8d7-4b7e-af2c-3566f5d5e43e"/>
+    <PID name="Cloudiator" mc="Standard.Package" uid="19a92d3a-41ba-446b-99d9-a51b34624145"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UserInterface]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="Port" mc="Standard.Port" uid="73bcdf51-a162-47c5-a4f2-6c2e22cbf0df"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="e30a9bae-b752-43a2-a33d-3cd586a10d0b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <REFOBJ>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="0aae1b9e-fcda-4ef5-a163-0a36f92ebc0f"/>
+              </REFOBJ>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CloudProvider" version="4">
+  <OBJECT>
+    <ID name="CloudProvider" mc="Standard.Package" uid="72a2a97a-1904-4500-9476-f34b7f2e6d9d"/>
+    <PID name="UML Model" mc="Standard.Package" uid="c2f64ab9-8c9e-4776-997f-9f3dcea03e43"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CloudProvider]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CloudProvider API" mc="Standard.Interface" uid="c4a20f8e-70ae-464f-a8d6-926be8bc9306"/>
+        <COMPID name="CloudProvider" mc="Standard.Component" uid="9b2eed71-08f1-4f52-8beb-def2a55ad6df"/>
+        <COMPID name="MetaDataService" mc="Standard.Component" uid="885bbea7-24dd-4571-a668-b94fd8896856"/>
+        <COMPID name="MetaDataInterface" mc="Standard.Interface" uid="3cb1b557-cc3e-4e09-a8f1-9ad08f98f03a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

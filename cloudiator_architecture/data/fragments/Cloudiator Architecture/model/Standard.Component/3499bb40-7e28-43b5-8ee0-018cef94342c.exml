@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HadoopAgent" version="4">
+  <OBJECT>
+    <ID name="HadoopAgent" mc="Standard.Component" uid="3499bb40-7e28-43b5-8ee0-018cef94342c"/>
+    <PID name="UML Model" mc="Standard.Package" uid="c2f64ab9-8c9e-4776-997f-9f3dcea03e43"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[HadoopAgent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="HadoopInterface" mc="Standard.Port" uid="0fde653c-f476-4b2d-bb50-5b959fbae33f"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[HadoopInterface]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="62262c44-f4f9-474d-9afb-27ec93e6eca3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Descriptor">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.Note" uid="c66bdece-1495-4a35-a288-e9ef5bcf92cb"/>
+                      <ATTRIBUTES>
+                        <ATT name="Content"><![CDATA[<p>anfoanofnaofna</p>
+]]></ATT>
+                        <ATT name="MimeType"></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Model">
+                          <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <OBJECT>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="7d1aef44-3d7d-4cec-8840-792e373713ed"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="Standard.NaryConnector" uid="d28c32c8-f3ce-4e17-ad9b-4582e510beec"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <OBJECT>
+                            <ID name="" mc="Standard.NaryConnectorEnd" uid="f2777314-58ec-4d70-b843-838fdbadf5e9"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="Standard.NaryConnector" uid="d28c32c8-f3ce-4e17-ad9b-4582e510beec"/>
+                              </COMP>
+                              <LINK relation="Consumer">
+                                <REFOBJ>
+                                  <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="b14f05af-f04f-4c58-a24a-43bafc74c00b"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <COMPID name="" mc="Standard.NaryConnectorEnd" uid="7d1aef44-3d7d-4cec-8840-792e373713ed"/>
+                        </COMP>
+                        <COMP relation="Descriptor">
+                          <OBJECT>
+                            <ID name="" mc="Infrastructure.Note" uid="98cadea3-4e89-4c47-86ab-dffe03ab6b03"/>
+                            <ATTRIBUTES>
+                              <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                              <ATT name="MimeType"></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="Model">
+                                <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Provider">
+                    <REFOBJ>
+                      <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="62262c44-f4f9-474d-9afb-27ec93e6eca3"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="cfd33e94-29aa-46f2-9454-68cb58df30e9"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

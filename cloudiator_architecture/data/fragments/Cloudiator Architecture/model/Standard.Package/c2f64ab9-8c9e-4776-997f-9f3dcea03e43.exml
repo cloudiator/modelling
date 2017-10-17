@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UML Model" version="4">
+  <OBJECT>
+    <ID name="UML Model" mc="Standard.Package" uid="c2f64ab9-8c9e-4776-997f-9f3dcea03e43"/>
+    <PID name="Cloudiator Architecture" mc="Standard.Project" uid="6a7fed50-ebb0-4b8f-a1fa-554e17ef0b8f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UML Model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Cloudiator" mc="Standard.Package" uid="19a92d3a-41ba-446b-99d9-a51b34624145"/>
+        <COMPID name="CloudProvider" mc="Standard.Package" uid="72a2a97a-1904-4500-9476-f34b7f2e6d9d"/>
+        <COMPID name="UpperWare" mc="Standard.Package" uid="95ab6af1-af8f-49b4-86c4-bd75ddb5e49d"/>
+        <COMPID name="KafkaMessageQueue" mc="Standard.Component" uid="d89fa957-5e34-4417-9fa4-ce199b8fa462"/>
+        <COMPID name="SparkAgent" mc="Standard.Component" uid="ca780c46-4673-45aa-8cc9-03ef29fd6129"/>
+        <COMPID name="NodeInterface" mc="Standard.Interface" uid="4af9e48e-0a9d-4378-9ff4-be4e05950178"/>
+        <COMPID name="VirtualMachineInterface" mc="Standard.Interface" uid="4a2388ce-156d-4bd4-ba6c-534dd5b861ec"/>
+        <COMPID name="JobInterface" mc="Standard.Interface" uid="7d36c525-6f60-4917-b614-97a0aa7d6d84"/>
+        <COMPID name="JobStore" mc="Standard.Interface" uid="646c9eb3-657d-4768-bbbe-3be786c411d2"/>
+        <COMPID name="JobQuery" mc="Standard.Interface" uid="a2ed4e92-09f5-4630-bf58-4447985aa8b9"/>
+        <COMPID name="DiscoveryInterface" mc="Standard.Interface" uid="2d9e2c0a-ac9f-45b2-8b35-33345c162e71"/>
+        <COMPID name="MonitoringAgent" mc="Standard.Component" uid="eb7d6c8d-2bc6-45cd-90ad-14cea3ab4a46"/>
+        <COMPID name="MonitoringDatabase" mc="Standard.Component" uid="a03c93af-1dfb-43d2-9978-4858972de613"/>
+        <COMPID name="MonitoringInterface" mc="Standard.Interface" uid="0483ae17-8150-4907-885b-2267025170a0"/>
+        <COMPID name="PaaSAgent" mc="Standard.Component" uid="c271b762-f6f4-4d59-b338-9c92e90faca7"/>
+        <COMPID name="MonitoringStore" mc="Standard.Interface" uid="87a50d89-e2f1-4d46-8e99-876147d64285"/>
+        <COMPID name="MonitoringQuery" mc="Standard.Interface" uid="47a0c9ea-75ee-4f0e-bba1-0f9d5b94107d"/>
+        <COMPID name="PaaSInterface" mc="Standard.Interface" uid="809cb864-d31a-4759-8f15-d79e6d490157"/>
+        <COMPID name="HadoopAgent" mc="Standard.Component" uid="3499bb40-7e28-43b5-8ee0-018cef94342c"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Architecture" mc="Standard.ClassDiagram" uid="2795b5cb-122c-4ffc-a4f2-c5d477104da5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

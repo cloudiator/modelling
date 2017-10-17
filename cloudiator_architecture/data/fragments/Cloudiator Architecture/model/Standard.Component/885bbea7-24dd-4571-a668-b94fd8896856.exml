@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MetaDataService" version="4">
+  <OBJECT>
+    <ID name="MetaDataService" mc="Standard.Component" uid="885bbea7-24dd-4571-a668-b94fd8896856"/>
+    <PID name="CloudProvider" mc="Standard.Package" uid="72a2a97a-1904-4500-9476-f34b7f2e6d9d"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MetaDataService]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="Port" mc="Standard.Port" uid="d22f261e-2b20-46ad-8df4-24dddda9c5b4"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="5aa81392-03a9-4fd4-82ae-ee0cb425e601"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ProvidedElement">
+                    <ID name="MetaDataInterface" mc="Standard.Interface" uid="3cb1b557-cc3e-4e09-a8f1-9ad08f98f03a"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <OBJECT>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="1e3d26a9-1861-4c0f-a7d5-0f7ad43880a0"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="Standard.NaryConnector" uid="0401edd3-2ca7-46c0-a1e4-c7abd60b3a76"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <OBJECT>
+                            <ID name="" mc="Standard.NaryConnectorEnd" uid="a6caa874-f0cc-4129-a2e5-519f1949d6fc"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="Standard.NaryConnector" uid="0401edd3-2ca7-46c0-a1e4-c7abd60b3a76"/>
+                              </COMP>
+                              <LINK relation="Consumer">
+                                <REFOBJ>
+                                  <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="087b75ae-cfed-4151-8e29-238e20ffe16c"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <COMPID name="" mc="Standard.NaryConnectorEnd" uid="1e3d26a9-1861-4c0f-a7d5-0f7ad43880a0"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Provider">
+                    <REFOBJ>
+                      <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="5aa81392-03a9-4fd4-82ae-ee0cb425e601"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cloudiator_bpmn" version="4">
+  <OBJECT>
+    <ID name="cloudiator_bpmn" mc="Standard.Project" uid="1efd226b-890d-4c03-ab0a-f62ee270ecee"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[cloudiator_bpmn]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="UML Model" mc="Standard.Package" uid="052227d8-5619-4102-b0f2-2b21776a76d4"/>
+        <COMPID name="Package" mc="Standard.Package" uid="668ddce0-ab03-410c-8f00-fb691f3c82f1"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Diagrams" mc="Infrastructure.DiagramSet" uid="e2f2ac2d-a846-4a70-a14e-7999d1f79e74"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

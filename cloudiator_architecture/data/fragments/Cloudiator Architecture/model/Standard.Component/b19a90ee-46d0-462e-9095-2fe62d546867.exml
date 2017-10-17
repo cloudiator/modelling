@@ -1,0 +1,304 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RestServer" version="4">
+  <OBJECT>
+    <ID name="RestServer" mc="Standard.Component" uid="b19a90ee-46d0-462e-9095-2fe62d546867"/>
+    <PID name="Cloudiator" mc="Standard.Package" uid="19a92d3a-41ba-446b-99d9-a51b34624145"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RestServer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="Port" mc="Standard.Port" uid="312b7a69-70d5-4fa2-8f16-1b869685222c"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="9ba23eeb-3b39-4e05-879c-1d79cd91ccac"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ProvidedElement">
+                    <ID name="RestInterface" mc="Standard.Interface" uid="0f7320da-9fd6-4feb-b0e6-2df610d163fc"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <OBJECT>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="4a8fb11c-88ca-4ab9-b32f-a02c72fc9029"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="Standard.NaryConnector" uid="4a1d8ad8-9259-478b-a949-a9997c79fb43"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <OBJECT>
+                            <ID name="" mc="Standard.NaryConnectorEnd" uid="0aae1b9e-fcda-4ef5-a163-0a36f92ebc0f"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="Standard.NaryConnector" uid="4a1d8ad8-9259-478b-a949-a9997c79fb43"/>
+                              </COMP>
+                              <LINK relation="Consumer">
+                                <REFOBJ>
+                                  <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="e30a9bae-b752-43a2-a33d-3cd586a10d0b"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <COMPID name="" mc="Standard.NaryConnectorEnd" uid="4a8fb11c-88ca-4ab9-b32f-a02c72fc9029"/>
+                          <REFOBJ>
+                            <ID name="" mc="Standard.NaryConnectorEnd" uid="85d700eb-03ab-4acf-8491-8324f70b463e"/>
+                          </REFOBJ>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Provider">
+                    <REFOBJ>
+                      <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="9ba23eeb-3b39-4e05-879c-1d79cd91ccac"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port1" mc="Standard.Port" uid="6bc467f7-145f-470c-9923-d188556afb11"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="8dfd7207-542e-4b67-83ae-4d7e1058bfea"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="03807a3f-e54c-43eb-a859-d6e5137bf2cb"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <REFOBJ>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="db9d098c-8cef-481e-9bed-990660edb41d"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="81f3516c-55b2-4ec8-b191-f44c0207f22b"/>
+              </REFOBJ>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port2" mc="Standard.Port" uid="44aeef59-a78f-4f2c-95a1-fa7f6d18a04a"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="7422e27f-11ae-478b-b133-171fc7f58467"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="8f880893-17ed-4857-8585-dab4e57fa387"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <REFOBJ>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="e33ca6f8-cca0-4373-9acf-fa940f79b7f4"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="91182260-a848-49d1-9ce7-8a9b19be9fc3"/>
+              </REFOBJ>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port3" mc="Standard.Port" uid="e077880d-7cc0-46d4-96ee-d5018fd563e1"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port3]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="b697327f-78b4-472b-a96d-4fee8647eb16"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="ec4b4055-d16e-4976-9303-8285338d8aa8"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <REFOBJ>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="46b2c5e5-24ca-4af1-b8c2-fbadc39cb659"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="7745b661-dc78-413a-b472-179bfbcab58d"/>
+              </REFOBJ>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port4" mc="Standard.Port" uid="408564fc-7716-44cd-96ec-12aa9d54f15f"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port4]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="16568922-f9b2-4309-b0ea-c5143847d30a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <REFOBJ>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="fc0e1f39-f956-482d-a4ad-0b398db72880"/>
+              </REFOBJ>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port5" mc="Standard.Port" uid="3a4b030d-a9fe-4666-8903-592731ef57aa"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port5]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="49ca3dd3-585e-4108-81ee-f865d2f10329"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <REFOBJ>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="00bc5ffe-7f10-40c3-a272-800ff2be7d00"/>
+              </REFOBJ>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

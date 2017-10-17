@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Compute" version="4">
+  <OBJECT>
+    <ID name="Compute" mc="Standard.Package" uid="05944225-14ed-4b19-8a82-4beefcfea4e1"/>
+    <PID name="cloudiator" mc="Standard.Package" uid="0f5b7d79-ca1e-4419-a0d5-bf5e62dc1fa8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Compute]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ComputeService" mc="Standard.Interface" uid="7b7b37d2-5f6b-4329-bbbd-f8bc67a37d30"/>
+        <COMPID name="DiscoveryService" mc="Standard.Interface" uid="dfaafb28-0731-4731-b95d-ae1c2d33227a"/>
+        <COMPID name="VirtualMachine" mc="Standard.Class" uid="af2882be-ed00-4e7c-b506-ac8bd7424007"/>
+        <COMPID name="VirtualMachineTemplate" mc="Standard.Class" uid="9b11e4ed-f066-4e92-89ea-5e3d9e0f3106"/>
+        <COMPID name="LoginCredential" mc="Standard.Class" uid="8371e28f-5727-4497-b013-a743940abf05"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

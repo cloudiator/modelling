@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CloudProvider API" version="4">
+  <OBJECT>
+    <ID name="CloudProvider API" mc="Standard.Interface" uid="c4a20f8e-70ae-464f-a8d6-926be8bc9306"/>
+    <PID name="CloudProvider" mc="Standard.Package" uid="72a2a97a-1904-4500-9476-f34b7f2e6d9d"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CloudProvider API]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

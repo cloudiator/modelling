@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cloudiator" version="4">
+  <OBJECT>
+    <ID name="cloudiator" mc="Standard.Project" uid="32be862a-6e1a-46de-91a5-6f050a5ffe76"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[cloudiator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="cloudiator" mc="Standard.Package" uid="0f5b7d79-ca1e-4419-a0d5-bf5e62dc1fa8"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="cloudiator" mc="Infrastructure.DiagramSet" uid="7c39fccc-059f-4ad9-843e-68c16a4b6acd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

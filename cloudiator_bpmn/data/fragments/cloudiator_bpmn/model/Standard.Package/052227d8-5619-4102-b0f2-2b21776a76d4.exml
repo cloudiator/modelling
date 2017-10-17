@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UML Model" version="4">
+  <OBJECT>
+    <ID name="UML Model" mc="Standard.Package" uid="052227d8-5619-4102-b0f2-2b21776a76d4"/>
+    <PID name="cloudiator_bpmn" mc="Standard.Project" uid="1efd226b-890d-4c03-ab0a-f62ee270ecee"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UML Model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="BPMN" mc="Standard.BpmnBehavior" uid="cb6018e1-92be-43a1-9449-ccf20cd26b56"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

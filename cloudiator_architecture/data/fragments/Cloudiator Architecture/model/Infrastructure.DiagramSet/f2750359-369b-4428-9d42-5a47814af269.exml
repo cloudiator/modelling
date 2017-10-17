@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagrams" version="4">
+  <OBJECT>
+    <ID name="Diagrams" mc="Infrastructure.DiagramSet" uid="f2750359-369b-4428-9d42-5a47814af269"/>
+    <PID name="Cloudiator Architecture" mc="Standard.Project" uid="6a7fed50-ebb0-4b8f-a1fa-554e17ef0b8f"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Diagrams]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

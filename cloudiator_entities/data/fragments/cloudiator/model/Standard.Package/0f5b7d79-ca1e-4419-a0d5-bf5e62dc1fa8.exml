@@ -1,0 +1,206 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cloudiator" version="4">
+  <OBJECT>
+    <ID name="cloudiator" mc="Standard.Package" uid="0f5b7d79-ca1e-4419-a0d5-bf5e62dc1fa8"/>
+    <PID name="cloudiator" mc="Standard.Project" uid="32be862a-6e1a-46de-91a5-6f050a5ffe76"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[cloudiator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="VirtualMachine" mc="Standard.Class" uid="af31ec20-6df8-4ab7-a663-ceccc9c3b254"/>
+        <COMPID name="Discovery" mc="Standard.Package" uid="bd489d12-a29a-4f1e-bba1-b4dd35a2f45a"/>
+        <COMPID name="Task" mc="Standard.Class" uid="677deacf-0aec-4d8b-9137-535e33ac026f"/>
+        <OBJECT>
+          <ID name="CloudType" mc="Standard.Enumeration" uid="1a99c306-b321-4021-8b4e-28fd50a96507"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[CloudType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="PRIVATE" mc="Standard.EnumerationLiteral" uid="5760061c-c429-447b-bc15-364bb5858922"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[PRIVATE]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="PUBLIC" mc="Standard.EnumerationLiteral" uid="c753ffee-32f1-433c-9428-20ce9ea293d5"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[PUBLIC]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="OSArchitecture" mc="Standard.Enumeration" uid="5c80d44c-b057-44c8-aa7c-6697ef3c354c"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[OSArchitecture]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="AMD64" mc="Standard.EnumerationLiteral" uid="4787a06a-f13d-4cb8-bb5b-5159f445cb5d"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[AMD64]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="I368" mc="Standard.EnumerationLiteral" uid="1fb2f8ef-f3b3-4849-b269-6b33f0425d98"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[I368]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="OSFamily" mc="Standard.Enumeration" uid="39df9144-8069-486a-b7a5-246594bd0255"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[OSFamily]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="UBUNTU" mc="Standard.EnumerationLiteral" uid="ee135be8-5c61-42b2-b65b-b3a5837bd68a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[UBUNTU]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="WINDOWS" mc="Standard.EnumerationLiteral" uid="6ec207c6-59aa-4d9d-af04-f2489cec172c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[WINDOWS]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Descriptor">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.Note" uid="af9d737f-c8ad-4596-90d5-e0a66330f795"/>
+                      <ATTRIBUTES>
+                        <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                        <ATT name="MimeType"></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Model">
+                          <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="RHEL" mc="Standard.EnumerationLiteral" uid="8c737533-161e-40d6-8ec0-15deaef4f2de"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RHEL]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="CENTOS" mc="Standard.EnumerationLiteral" uid="7b3a4ce4-c8a8-4124-bd24-483ff16f460a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[CENTOS]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="DEBIAN" mc="Standard.EnumerationLiteral" uid="f7f7ea94-b861-4fcd-bc1e-463f5137577a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[DEBIAN]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AMAZN" mc="Standard.EnumerationLiteral" uid="a0d15fa8-ebb5-40d4-87eb-74ccb623ec20"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[AMAZN]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="OSType" mc="Standard.Enumeration" uid="60404249-a7c7-485f-8f78-e1ced75bd8d7"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[OSType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="WINDOWS" mc="Standard.EnumerationLiteral" uid="121f0727-eb8f-44ec-8326-4ab341895dd3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[WINDOWS]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="LINUX" mc="Standard.EnumerationLiteral" uid="d83035ad-679b-4c0a-9118-7edbd4e04471"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[LINUX]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Compute" mc="Standard.Package" uid="05944225-14ed-4b19-8a82-4beefcfea4e1"/>
+        <COMPID name="Job" mc="Standard.Package" uid="c1b08ddc-3deb-4383-8b35-0f9ab7434b5d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Discovery" mc="Standard.ClassDiagram" uid="8d19b767-575d-4f0d-b88a-85f184cf04a9"/>
+        <COMPID name="Compute" mc="Standard.ClassDiagram" uid="5e4a4356-a01c-4222-95b2-0cc6da28876c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
