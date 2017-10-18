@@ -196,10 +196,7 @@
         </OBJECT>
         <COMPID name="Compute" mc="Standard.Package" uid="05944225-14ed-4b19-8a82-4beefcfea4e1"/>
         <COMPID name="Job" mc="Standard.Package" uid="c1b08ddc-3deb-4383-8b35-0f9ab7434b5d"/>
-      </COMP>
-      <COMP relation="Product">
-        <COMPID name="Discovery" mc="Standard.ClassDiagram" uid="8d19b767-575d-4f0d-b88a-85f184cf04a9"/>
-        <COMPID name="Compute" mc="Standard.ClassDiagram" uid="5e4a4356-a01c-4222-95b2-0cc6da28876c"/>
+        <COMPID name="monitoring" mc="Standard.Package" uid="a6519379-335c-4616-8f72-c73b9e924a2b"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

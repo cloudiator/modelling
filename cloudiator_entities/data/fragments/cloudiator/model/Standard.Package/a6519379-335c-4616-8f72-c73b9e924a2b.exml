@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="monitoring" version="4">
+  <OBJECT>
+    <ID name="monitoring" mc="Standard.Package" uid="a6519379-335c-4616-8f72-c73b9e924a2b"/>
+    <PID name="cloudiator" mc="Standard.Package" uid="0f5b7d79-ca1e-4419-a0d5-bf5e62dc1fa8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[monitoring]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Metric" mc="Standard.Class" uid="80b674d3-8471-4e88-8efd-a66ed1a5ce0d"/>
+        <COMPID name="Object" mc="Standard.Class" uid="99eb7c54-56d1-44a6-89d4-106f810e9d78"/>
+        <COMPID name="Tag" mc="Standard.Class" uid="d5fcd260-6a53-4a8c-b60b-4096ec00e19b"/>
+        <COMPID name="ReportingInterface" mc="Standard.Interface" uid="4a1f90a9-4d68-40d4-af14-4612c411d9ef"/>
+        <COMPID name="KairosDB" mc="Standard.Class" uid="17955d5d-043a-4d0d-9616-d10f573486b1"/>
+        <COMPID name="InfluxDB" mc="Standard.Class" uid="3e404a58-247d-403a-847c-e7dee46329ed"/>
+        <COMPID name="Esper" mc="Standard.Class" uid="456e8d8c-b52f-4c1a-a89a-0037004308a3"/>
+        <COMPID name="Chuckwa" mc="Standard.Class" uid="ec1f73a1-1896-4063-80be-20ff65a81fb1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="monitoring" mc="Standard.ClassDiagram" uid="1ecc6dd3-bb42-4091-993d-4bd5d38e4fa9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

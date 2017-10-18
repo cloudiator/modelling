@@ -20,6 +20,9 @@
         <COMPID name="VirtualMachineTemplate" mc="Standard.Class" uid="9b11e4ed-f066-4e92-89ea-5e3d9e0f3106"/>
         <COMPID name="LoginCredential" mc="Standard.Class" uid="8371e28f-5727-4497-b013-a743940abf05"/>
       </COMP>
+      <COMP relation="Product">
+        <COMPID name="Compute" mc="Standard.ClassDiagram" uid="5e4a4356-a01c-4222-95b2-0cc6da28876c"/>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

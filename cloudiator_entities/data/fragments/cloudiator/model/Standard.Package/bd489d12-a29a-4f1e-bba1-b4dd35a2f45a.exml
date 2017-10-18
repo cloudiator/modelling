@@ -61,6 +61,9 @@
         <COMPID name="OperatingSystem" mc="Standard.Class" uid="9ff349c6-68eb-483a-88e8-c5865661c45e"/>
         <COMPID name="Cloud" mc="Standard.Class" uid="cdd1ddd0-339a-4839-bfda-503379038be1"/>
       </COMP>
+      <COMP relation="Product">
+        <COMPID name="Discovery" mc="Standard.ClassDiagram" uid="8d19b767-575d-4f0d-b88a-85f184cf04a9"/>
+      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="fae7d9b2-b278-4286-b808-5b2356a7f635"/>

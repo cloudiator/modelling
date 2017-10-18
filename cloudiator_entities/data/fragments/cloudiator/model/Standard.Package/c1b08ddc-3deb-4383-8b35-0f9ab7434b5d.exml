@@ -13,6 +13,56 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Task" mc="Standard.Class" uid="2ea25450-743b-44f2-a490-7a9338f8dd14"/>
+        <COMPID name="Job" mc="Standard.Class" uid="cbe6da8f-299f-4cbc-ac2c-15fde625a10c"/>
+        <COMPID name="Process" mc="Standard.Class" uid="4fb26610-856f-4210-b221-7013c38715af"/>
+        <COMPID name="TaskInterface" mc="Standard.Class" uid="d72a10f3-6b2c-4ac4-8d0b-7e0fad431738"/>
+        <COMPID name="TaskInterface" mc="Standard.Interface" uid="6be8022a-6003-4f69-b4a1-472c0d6103a8"/>
+        <COMPID name="LifecycleInterface" mc="Standard.Class" uid="0e9ff2fc-2d1e-43cd-a447-a6eb7aefbfa8"/>
+        <COMPID name="DockerInterface" mc="Standard.Class" uid="50255b26-9c01-415f-bf5a-7fedc3a171a0"/>
+        <OBJECT>
+          <ID name="TaskType" mc="Standard.Enumeration" uid="54763777-8777-474f-a2b4-11b1558b6b0f"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[TaskType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="BATCH" mc="Standard.EnumerationLiteral" uid="0d009c81-e1ae-4291-bff2-7e97cdb3e4d5"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[BATCH]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="SERVICE" mc="Standard.EnumerationLiteral" uid="bb293cd6-3f10-4ee5-9d06-4c1ee0bab199"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[SERVICE]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Port" mc="Standard.Class" uid="4e8844cd-9c82-4649-b01c-dde5300c48e6"/>
+        <COMPID name="ProvidedPort" mc="Standard.Class" uid="49decbca-c021-4e3b-9cad-5b24109f3671"/>
+        <COMPID name="RequiredPort" mc="Standard.Class" uid="18aeecc6-ee2f-4dfc-a503-432329456bec"/>
+        <COMPID name="Communication" mc="Standard.Class" uid="0586dd96-4718-4273-aa7e-6643bb304dd5"/>
+        <COMPID name="Param" mc="Standard.Class" uid="787a63f3-7fba-4d7e-8f21-ff6a60230201"/>
+        <COMPID name="SparkInterface" mc="Standard.Class" uid="e2d613dc-175d-4994-a881-940e440c0aea"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Job" mc="Standard.ClassDiagram" uid="a5ba883b-b301-4ce6-bc1e-e1a9dbf1a109"/>
+      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="ad60e01e-9590-4f76-9bc9-d3e66cbf7d76"/>
