@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="monitoring" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Monitoring" version="4">
   <OBJECT>
-    <ID name="monitoring" mc="Standard.Package" uid="a6519379-335c-4616-8f72-c73b9e924a2b"/>
+    <ID name="Monitoring" mc="Standard.Package" uid="a6519379-335c-4616-8f72-c73b9e924a2b"/>
     <PID name="cloudiator" mc="Standard.Package" uid="0f5b7d79-ca1e-4419-a0d5-bf5e62dc1fa8"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[monitoring]]></ATT>
+      <ATT name="Name"><![CDATA[Monitoring]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -22,6 +22,10 @@
         <COMPID name="InfluxDB" mc="Standard.Class" uid="3e404a58-247d-403a-847c-e7dee46329ed"/>
         <COMPID name="Esper" mc="Standard.Class" uid="456e8d8c-b52f-4c1a-a89a-0037004308a3"/>
         <COMPID name="Chuckwa" mc="Standard.Class" uid="ec1f73a1-1896-4063-80be-20ff65a81fb1"/>
+        <COMPID name="Sensor" mc="Standard.Interface" uid="ed7260a1-767d-4abf-907e-35a912b0d588"/>
+        <COMPID name="SensorConfiguration" mc="Standard.Class" uid="fe2617d0-3fb9-4fcc-bb54-cac12bf6cc25"/>
+        <COMPID name="MonitorContext" mc="Standard.Class" uid="56bccd1a-dffc-4b8c-b192-a1c301b23b2c"/>
+        <COMPID name="Measurement" mc="Standard.Class" uid="acb607bf-d625-4b33-832b-88b2bf4016a0"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="monitoring" mc="Standard.ClassDiagram" uid="1ecc6dd3-bb42-4091-993d-4bd5d38e4fa9"/>
