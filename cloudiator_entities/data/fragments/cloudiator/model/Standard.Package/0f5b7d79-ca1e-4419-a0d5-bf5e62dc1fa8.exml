@@ -14,9 +14,9 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Node" mc="Standard.Class" uid="af31ec20-6df8-4ab7-a663-ceccc9c3b254"/>
+        <COMPID name="VirtualMachine" mc="Standard.Class" uid="af31ec20-6df8-4ab7-a663-ceccc9c3b254"/>
         <COMPID name="Discovery" mc="Standard.Package" uid="bd489d12-a29a-4f1e-bba1-b4dd35a2f45a"/>
-        <COMPID name="Component" mc="Standard.Class" uid="677deacf-0aec-4d8b-9137-535e33ac026f"/>
+        <COMPID name="Task" mc="Standard.Class" uid="677deacf-0aec-4d8b-9137-535e33ac026f"/>
         <OBJECT>
           <ID name="CloudType" mc="Standard.Enumeration" uid="1a99c306-b321-4021-8b4e-28fd50a96507"/>
           <ATTRIBUTES>
@@ -198,6 +198,7 @@
         <COMPID name="Job" mc="Standard.Package" uid="c1b08ddc-3deb-4383-8b35-0f9ab7434b5d"/>
         <COMPID name="Monitoring" mc="Standard.Package" uid="a6519379-335c-4616-8f72-c73b9e924a2b"/>
         <COMPID name="Requirement" mc="Standard.Package" uid="f3aafd0a-8f89-4270-8cd7-50a819afec3c"/>
+        <COMPID name="Platform" mc="Standard.Package" uid="6b65ca9a-ffe4-4f7c-8fec-25be96c5da5e"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
