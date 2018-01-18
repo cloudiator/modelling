@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Requirement" version="4">
+  <OBJECT>
+    <ID name="Requirement" mc="Standard.Package" uid="f3aafd0a-8f89-4270-8cd7-50a819afec3c"/>
+    <PID name="cloudiator" mc="Standard.Package" uid="0f5b7d79-ca1e-4419-a0d5-bf5e62dc1fa8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Requirement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Requirement" mc="Standard.Class" uid="eeeeb5b1-7a30-4084-97cf-66d33afd99df"/>
+        <COMPID name="AttributeRequirement" mc="Standard.Class" uid="b0c3cd7e-5f6b-43c1-b3e9-10576186043d"/>
+        <COMPID name="IdentifierRequirement" mc="Standard.Class" uid="88757588-54f8-429a-8bf7-0cf20c77f3dc"/>
+        <COMPID name="OclRequirement" mc="Standard.Class" uid="10307d20-9ea0-4a1c-b14f-f857c32bab5f"/>
+        <OBJECT>
+          <ID name="RequirementOperator" mc="Standard.Enumeration" uid="8aeb4a21-5ff9-44be-b1d2-e9dc4e4d28e9"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[RequirementOperator]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="EQ" mc="Standard.EnumerationLiteral" uid="e7eb6ba3-de8f-4c45-a05e-9b1718e444f4"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[EQ]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="LEQ" mc="Standard.EnumerationLiteral" uid="0977b932-bd6c-4d9a-9458-63890abc2732"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[LEQ]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="GEQ" mc="Standard.EnumerationLiteral" uid="8a3f8557-5351-43a9-98ac-64f52daa3381"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[GEQ]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="GT" mc="Standard.EnumerationLiteral" uid="90ee2d18-e1b7-48bc-be78-df5f8482bd18"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[GT]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Descriptor">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.Note" uid="2d044915-1408-4872-ac8e-4c4a76a0aa14"/>
+                      <ATTRIBUTES>
+                        <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                        <ATT name="MimeType"></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Model">
+                          <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="LT" mc="Standard.EnumerationLiteral" uid="6da22237-404c-4a50-a5b3-2bfcd0f0a39f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[LT]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Requirement" mc="Standard.ClassDiagram" uid="93e38b36-0140-4100-bdb5-307ccc924589"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
