@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Platform" version="4">
+  <OBJECT>
+    <ID name="Platform" mc="Standard.Package" uid="6b65ca9a-ffe4-4f7c-8fec-25be96c5da5e"/>
+    <PID name="cloudiator" mc="Standard.Package" uid="0f5b7d79-ca1e-4419-a0d5-bf5e62dc1fa8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Platform]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PlatformService" mc="Standard.Interface" uid="29cbd141-ae29-4acc-88d8-d7fe489fe414"/>
+        <COMPID name="PlatformEnvironment" mc="Standard.Class" uid="6a74a929-7502-41f9-ba00-06d311bc41aa"/>
+        <COMPID name="PlatformHardware" mc="Standard.Class" uid="5f913a8e-0150-47ef-8229-6de09bbe50cf"/>
+        <COMPID name="PlatformRuntime" mc="Standard.Class" uid="be907268-4777-45d5-9d64-375281dc6970"/>
+        <COMPID name="PlatformService" mc="Standard.Class" uid="bde55b05-a0af-45d0-9497-cc741fbf1533"/>
+        <COMPID name="Platform" mc="Standard.Class" uid="63393d74-6fff-4b23-ba5e-e54ee547e6bc"/>
+        <COMPID name="PlatformService" mc="Standard.Class" uid="b96bae4e-eb4d-40cf-9f7c-8ab6be1630a6"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Platform" mc="Standard.ClassDiagram" uid="c6678278-24fc-4c82-91b2-a1b6159701f4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

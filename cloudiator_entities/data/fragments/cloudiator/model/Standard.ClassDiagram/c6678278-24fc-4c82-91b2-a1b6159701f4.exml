@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Platform" version="4">
+  <OBJECT>
+    <ID name="Platform" mc="Standard.ClassDiagram" uid="c6678278-24fc-4c82-91b2-a1b6159701f4"/>
+    <PID name="Platform" mc="Standard.Package" uid="6b65ca9a-ffe4-4f7c-8fec-25be96c5da5e"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">310</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[Platform]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="PlatformRuntime" mc="Standard.Class" uid="be907268-4777-45d5-9d64-375281dc6970"/>
+        <REFOBJ>
+          <ID name="language" mc="Standard.Attribute" uid="8b3323d6-c337-4b8c-bcbf-11e7c58d8a35"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="runtimeVersion" mc="Standard.Attribute" uid="5c976e92-39fe-4cea-917c-39291b278d44"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="languageVersion" mc="Standard.Attribute" uid="1bd2e907-4798-40ee-8fc3-9bb87b3b7a8a"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="id" mc="Standard.Attribute" uid="31fc2262-b279-4ed5-9a4d-5125ae451103"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="runtimeType" mc="Standard.Attribute" uid="cd50c7d3-69f2-4a9b-8b5e-ce8931cd65ea"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="updatePlatformEnvironment" mc="Standard.Operation" uid="b2b8cc23-b036-473b-a31b-7f4392bee16b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="deletePlatformEnvironment" mc="Standard.Operation" uid="fc1b99fb-8afd-43b8-9c1a-2c704d794f5f"/>
+        </REFOBJ>
+        <ID name="PlatformService" mc="Standard.Interface" uid="29cbd141-ae29-4acc-88d8-d7fe489fe414"/>
+        <REFOBJ>
+          <ID name="createPlatformEnvironment" mc="Standard.Operation" uid="a80e48e9-1ec4-423d-b38b-3bc470233aed"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="id" mc="Standard.Attribute" uid="5a3a2c8a-c9ab-4e6e-972d-2c0091ed6970"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="disk" mc="Standard.Attribute" uid="418307cc-69ea-49ad-97d7-8dba8b330930"/>
+        </REFOBJ>
+        <ID name="PlatformHardware" mc="Standard.Class" uid="5f913a8e-0150-47ef-8229-6de09bbe50cf"/>
+        <REFOBJ>
+          <ID name="cores" mc="Standard.Attribute" uid="f3ba7e77-4c1f-48b1-adb4-2effedb414e8"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="platformType" mc="Standard.Attribute" uid="b090a4fb-07d8-482a-b6eb-74930668c065"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="user" mc="Standard.Attribute" uid="e59f1c0f-6e0d-4c01-889f-9260d0ae029a"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="driver" mc="Standard.Attribute" uid="49730fa5-4249-41c4-8565-a944ac8673ab"/>
+        </REFOBJ>
+        <ID name="Platform" mc="Standard.Class" uid="63393d74-6fff-4b23-ba5e-e54ee547e6bc"/>
+        <REFOBJ>
+          <ID name="endpoint" mc="Standard.Attribute" uid="51e00203-242e-4b6d-921d-be277eae5a1e"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="id" mc="Standard.Attribute" uid="16d4a171-b11c-4c44-8170-2b99ca1443b0"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="secret" mc="Standard.Attribute" uid="1b344105-e3e5-41e5-bc35-c8176999ca60"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="serviceType" mc="Standard.Attribute" uid="6ca7378c-dbe2-4b34-9848-70029e21c6e3"/>
+        </REFOBJ>
+        <ID name="PlatformService" mc="Standard.Class" uid="b96bae4e-eb4d-40cf-9f7c-8ab6be1630a6"/>
+        <REFOBJ>
+          <ID name="serviceName" mc="Standard.Attribute" uid="61bab176-9599-426e-a330-ef7d1ad57c61"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="id" mc="Standard.Attribute" uid="071ae954-3ba8-4a05-9bc0-f68b2d8c7fe9"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="serviceVersion" mc="Standard.Attribute" uid="c5e8cea2-ad1f-481e-83b1-49ca6b21ad22"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="id" mc="Standard.Attribute" uid="9df0668c-eded-4e67-8133-42592c0c27a7"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="idPlatformRuntime" mc="Standard.Attribute" uid="b8d337e5-b71b-4967-a72f-9cb1f2f7ff64"/>
+        </REFOBJ>
+        <ID name="PlatformEnvironment" mc="Standard.Class" uid="6a74a929-7502-41f9-ba00-06d311bc41aa"/>
+        <REFOBJ>
+          <ID name="idPlatformHardware" mc="Standard.Attribute" uid="b35fa934-00b8-4d94-9e71-f9b66dac04eb"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="idPlatform" mc="Standard.Attribute" uid="5711b11a-2c5f-4ab0-ba1f-483bc1411a65"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="idPlatformService" mc="Standard.Attribute" uid="34a5cb90-4054-4461-9edf-7102295c3c93"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="d9212ec1-cd79-48ca-b554-ddb89e0b9d90"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
