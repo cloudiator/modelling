@@ -91,6 +91,10 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <COMPID name="NodeRequirement" mc="Standard.Class" uid="e9c1a130-6f08-4660-94dc-023779bd1e12"/>
+        <COMPID name="AttributeObjective" mc="Standard.Class" uid="00b3cc38-6da6-490c-9965-a9465ff64ff8"/>
+        <COMPID name="OCLObjective" mc="Standard.Class" uid="119ec3a5-4ae4-4c0c-966c-1d1056b4016f"/>
+        <COMPID name="Objective" mc="Standard.Class" uid="a18ee369-8e89-4003-b774-911e35fd06af"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Requirement" mc="Standard.ClassDiagram" uid="93e38b36-0140-4100-bdb5-307ccc924589"/>
