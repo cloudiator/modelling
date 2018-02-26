@@ -16,7 +16,6 @@
       <COMP relation="OwnedElement">
         <COMPID name="VirtualMachine" mc="Standard.Class" uid="af31ec20-6df8-4ab7-a663-ceccc9c3b254"/>
         <COMPID name="Discovery" mc="Standard.Package" uid="bd489d12-a29a-4f1e-bba1-b4dd35a2f45a"/>
-        <COMPID name="Task" mc="Standard.Class" uid="677deacf-0aec-4d8b-9137-535e33ac026f"/>
         <OBJECT>
           <ID name="CloudType" mc="Standard.Enumeration" uid="1a99c306-b321-4021-8b4e-28fd50a96507"/>
           <ATTRIBUTES>

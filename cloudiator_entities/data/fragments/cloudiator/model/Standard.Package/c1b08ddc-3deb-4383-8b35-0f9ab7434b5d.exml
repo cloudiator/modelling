@@ -59,7 +59,7 @@
         <COMPID name="Communication" mc="Standard.Class" uid="0586dd96-4718-4273-aa7e-6643bb304dd5"/>
         <COMPID name="Param" mc="Standard.Class" uid="787a63f3-7fba-4d7e-8f21-ff6a60230201"/>
         <COMPID name="SparkInterface" mc="Standard.Class" uid="e2d613dc-175d-4994-a881-940e440c0aea"/>
-        <COMPID name="DockerInterface" mc="Standard.Class" uid="d5ac1eb9-9412-4b81-92e9-d0475d2973e9"/>
+        <COMPID name="PlatformInterface" mc="Standard.Class" uid="d5ac1eb9-9412-4b81-92e9-d0475d2973e9"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Job" mc="Standard.ClassDiagram" uid="a5ba883b-b301-4ce6-bc1e-e1a9dbf1a109"/>

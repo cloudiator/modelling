@@ -15,7 +15,6 @@
         <ID name="AttributeRequirement" mc="Standard.Class" uid="b0c3cd7e-5f6b-43c1-b3e9-10576186043d"/>
         <ID name="IdentifierRequirement" mc="Standard.Class" uid="88757588-54f8-429a-8bf7-0cf20c77f3dc"/>
         <ID name="OclRequirement" mc="Standard.Class" uid="10307d20-9ea0-4a1c-b14f-f857c32bab5f"/>
-        <ID name="Task" mc="Standard.Class" uid="677deacf-0aec-4d8b-9137-535e33ac026f"/>
         <REFOBJ>
           <ID name="Generalization" mc="Standard.Generalization" uid="70ad7762-342c-4ff2-9c89-0616887e31a3"/>
         </REFOBJ>
@@ -73,12 +72,6 @@
         </REFOBJ>
         <REFOBJ>
           <ID name="requirements" mc="Standard.AssociationEnd" uid="2b8029c6-a6e2-4d80-9f34-ee7513ab69a5"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="5482ecd6-303e-4c7a-890a-071c5c2bbd9e"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="nodeRequirement" mc="Standard.AssociationEnd" uid="eb1d289a-06a1-4bc2-a2b7-9847666ce49e"/>
         </REFOBJ>
         <ID name="AttributeObjective" mc="Standard.Class" uid="00b3cc38-6da6-490c-9965-a9465ff64ff8"/>
         <ID name="OCLObjective" mc="Standard.Class" uid="119ec3a5-4ae4-4c0c-966c-1d1056b4016f"/>
